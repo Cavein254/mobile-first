@@ -1,0 +1,15 @@
+{
+  "name": "mobile-first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Cavein254/mobile-first.git",
+  "author": "John Muthua <caveomuthama@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hint": "7.x",
+    "stylelint": "13.x",
+    "stylelint-config-standard": "21.x",
+    "stylelint-csstree-validator": "1.x",
+    "stylelint-scss": "3.x"
+  }
+}
