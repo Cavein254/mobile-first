@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .app-bar {
   background-color: #3c3a39;
   height: 5.75rem;
@@ -11,19 +12,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .my-logo {
   color: #fff;
   width: 4.375rem;
   height: 1.5rem;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
+
 .burger > span {
   color: #fff;
 }
+
 .hero {
   background-color: #1c1a19;
   padding: 7.5rem 1.5rem 8.5rem 1.5rem;
@@ -31,17 +35,19 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .primary-text {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 170%;
+  line-height: 200%;
   color: #ff6b00;
   letter-spacing: 0.02rem;
 }
+
 .supporting-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -49,14 +55,16 @@
   color: #fff5e1;
   margin: 0.75rem 0;
 }
+
 .description {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
 }
+
 .social-media {
   margin-top: 0.75rem;
 }
