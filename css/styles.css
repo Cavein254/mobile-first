@@ -26,14 +26,17 @@
 }
 .hero {
   background-color: #1c1a19;
-  padding: 7.5rem 1.5rem;
+  padding: 7.5rem 1.5rem 8.5rem 1.5rem;
+  background-image: url("../pics/illustration-header-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .primary-text {
   font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 114%;
+  font-size: 2rem;
+  line-height: 170%;
   color: #ff6b00;
   letter-spacing: 0.02rem;
 }
@@ -41,10 +44,10 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 2rem;
   color: #fff5e1;
-  margin-top: 0.75rem 0;
+  margin: 0.75rem 0;
 }
 .description {
   color: #fff;
@@ -53,4 +56,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
+}
+.social-media {
+  margin-top: 0.75rem;
 }
