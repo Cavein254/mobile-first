@@ -106,4 +106,4 @@ I would like to thank the Microverse Team for the enomous support :fire: :fire: 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./license.txt) licensed.
