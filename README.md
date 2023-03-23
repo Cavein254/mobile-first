@@ -29,8 +29,6 @@
 
 > A mobile first portfolio project
 
-**Hello World** is a project that displays the text `Hello Microverse`
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -59,7 +57,19 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Cavein254/mobile-first.git
+git clone https://github.com/Cavein254/mobile-first.git
+```
+
+Navigate to the directory
+
+```sh
+cd YOUR_FOLDER
+```
+
+Open the project using firefox
+
+```sh
+firefox index.html
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,4 +116,4 @@ I would like to thank the Microverse Team for the enomous support :fire: :fire: 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./license.txt) licensed.
