@@ -24,3 +24,33 @@
 .burger > span {
   color: #fff;
 }
+.hero {
+  background-color: #1c1a19;
+  padding: 7.5rem 1.5rem;
+}
+.primary-text {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 114%;
+  color: #ff6b00;
+  letter-spacing: 0.02rem;
+}
+.supporting-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff5e1;
+  margin-top: 0.75rem 0;
+}
+.description {
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+}
