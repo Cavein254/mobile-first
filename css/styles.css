@@ -29,6 +29,8 @@
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
   padding: 7.5rem 1.5rem 8.5rem 1.5rem;
   background-image: url("../pics/illustration-header-mobile.svg");
@@ -67,4 +69,15 @@
 
 .social-media {
   margin-top: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.social-media > li {
+  padding-right: 1rem;
+}
+
+.social-media > li :hover {
+  background-color: pink;
 }
