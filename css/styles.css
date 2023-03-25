@@ -34,8 +34,10 @@
   background-color: #1c1a19;
   padding: 7.5rem 1.5rem 8.5rem 1.5rem;
   background-image: url("../pics/illustration-header-mobile.svg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .primary-text {
@@ -80,4 +82,321 @@
 
 .social-media > li :hover {
   background-color: pink;
+}
+
+.story {
+  margin-top: 7.5rem;
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
+}
+
+.story-title {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #1c1a19;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.001rem #212121 solid;
+}
+
+.card-top {
+  grid-column: 2;
+  margin-top: 5rem;
+}
+
+.post-title {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #091e42;
+}
+
+.supporting-text {
+  grid-column: 2;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #091e42;
+}
+
+.languages {
+  grid-column: 2;
+}
+
+.languages > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.languages > ul > li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.languages > ul > li :hover {
+  background-color: #091e42;
+  color: #fff;
+}
+
+.languages > ul > li > a {
+  text-decoration: none;
+  color: #091e42;
+}
+
+.story-btn {
+  grid-column: 2;
+  margin-top: 1rem;
+}
+
+.story-btn > span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.story-btn > span > a {
+  text-decoration: none;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 1rem;
+}
+
+.projects {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
+}
+
+.project-details {
+  grid-column: 2;
+  background-image: url("../pics/img2.svg");
+  background-repeat: no-repeat;
+  padding: 0.8rem;
+}
+
+.project-title {
+  margin-top: 4.5rem;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #fff;
+}
+
+.support-text {
+  margin-top: 1rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+}
+
+.pro-language > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.pro-language > ul > li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pro-language > ul > li > a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.425rem;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+
+.pro-btn {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6b00;
+}
+
+.pro-btn > span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pro-btn > span > a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.pro-btn :hover {
+  background-color: #fff;
+  color: #ff6b00;
+}
+
+.about {
+  background-color: #1c1a19;
+  margin-top: 7.5rem;
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
+  background-image: url("../pics/illustration-about-me-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.about-text {
+  grid-column: 2;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 7.5rem;
+}
+
+.about-description {
+  grid-column: 2;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #f4f5f7;
+  margin-top: 1.5rem;
+}
+
+.about-footer {
+  grid-column: 2;
+}
+
+.about-btn {
+  background-color: #ff6b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.about-border {
+  padding-bottom: 7.5rem;
+  border-bottom: solid 0.024rem #fff;
+}
+.about-btn > span > a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.about > span > a :hover {
+  color: #ff6b00;
+  background-color: #fff;
+}
+
+.language-sec {
+  grid-column: 2;
+  background-color: #1c1a19;
+}
+
+.lang-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8.5rem;
+}
+
+.lang-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang-img > img {
+  margin-right: 1rem;
+}
+
+.lang-img > h4 {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.lang-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang-list > li > a {
+  margin-top: 2.75rem;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.language-sec > ul > h4 {
+  margin-left: 1rem;
 }
