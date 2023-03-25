@@ -386,7 +386,7 @@
 .lang-list > li > a {
   margin-top: 2.75rem;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -399,4 +399,99 @@
 
 .language-sec > ul > h4 {
   margin-left: 1rem;
+}
+
+.interest {
+  background-color: #fbf8f7;
+  padding-bottom: 4.5rem;
+}
+
+.intrest-description {
+  padding-top: 4.25rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact {
+  margin-top: 4.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-input {
+  width: 100%;
+}
+
+.contact-input > input {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  padding: 1rem 0.5rem;
+  background-color: #fbf8f7;
+
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.info {
+  width: 100%;
+}
+
+.info > textarea {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 2rem 0.5rem;
+
+  background-color: #fbf8f7;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.info > textarea :focus :active {
+  outline: none;
+  border-color: transparent;
+  border-bottom: 2px solid #1c87c9;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  border: #dfe1e6 solid 0.15rem;
+  background-color: #e5e5e5;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #505f79;
+}
+
+.footer-content > .social-media > li {
+  color: #505f79;
 }
