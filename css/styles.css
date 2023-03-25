@@ -189,10 +189,10 @@ select:focus {
 }
 
 .projects {
-  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
   grid-template-rows: 100%;
+  margin-top: 1rem;
 }
 
 .project-details {
