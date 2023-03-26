@@ -98,6 +98,7 @@ select:focus {
 .story {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
 }
 
 .story-title {
@@ -112,7 +113,6 @@ select:focus {
   color: #1c1a19;
   padding-bottom: 1.5rem;
   border-bottom: 0.001rem #212121 solid;
-  padding-top: 7.5rem;
 }
 
 .card-top {
@@ -190,6 +190,7 @@ select:focus {
 .projects {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
   margin-top: 1rem;
 }
 
@@ -258,7 +259,6 @@ select:focus {
   justify-content: center;
   align-items: center;
   background-color: #ff6b00;
-  width: 93%;
 }
 
 .languages > ul > li :hover {
@@ -288,6 +288,7 @@ select:focus {
   margin-top: 7.5rem;
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
   background-image: url("../pics/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-size: auto;
