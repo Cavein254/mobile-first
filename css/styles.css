@@ -197,6 +197,7 @@ select:focus {
   grid-column: 2;
   background-image: url("../pics/img2.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 0.8rem;
 }
 
@@ -258,7 +259,6 @@ select:focus {
   justify-content: center;
   align-items: center;
   background-color: #ff6b00;
-  width: 93%;
 }
 
 .languages > ul > li :hover {
@@ -430,3 +430,4 @@ select:focus {
 .language-sec > ul > h4 {
   margin-left: 1rem;
 }
+
