@@ -10,6 +10,11 @@ select:focus {
   outline: none;
 }
 
+button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .app-bar {
   background-color: #3c3a39;
   height: 5.75rem;
@@ -332,6 +337,7 @@ select:focus {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+  color: #fff;
 }
 
 .about-btn:hover {
@@ -381,6 +387,10 @@ select:focus {
 .languages > ul > li > a {
   text-decoration: none;
   color: #091e42;
+}
+
+.story-contact-btn > a:hover {
+  color: #ff6b00;
 }
 
 .about-btn > span > a:hover {
@@ -498,6 +508,7 @@ select:focus {
   padding: 2rem 0.5rem;
   background-color: #fbf8f7;
   border-style: hidden;
+  color: #3c3a39;
 }
 
 .info > textarea :focus :active {
@@ -513,9 +524,45 @@ select:focus {
   align-items: center;
 }
 
+.story-contact-btn {
+  border: none;
+  background-color: #ff6b00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.story-contact-btn:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.story-contact-btn:active {
+  background-color: #ff6b00;
+  color: #fff5e1;
+}
+
+.story-contact-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 footer {
   border: #dfe1e6 solid 0.15rem;
-  background-color: #e5e5e5;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  background-color: #fff;
   padding-bottom: 1rem;
 }
 
@@ -526,7 +573,7 @@ footer {
   color: #505f79;
 }
 
-.footer-content > .social-media > li {
+.footer-content > .social-media > li > a > img {
   color: #505f79;
 }
 
