@@ -320,9 +320,19 @@
             like to chat please get in touch.
           </h5>
         </div>
-        <div class="contact">
+        <form
+          class="contact"
+          action="https://formspree.io/f/xzbqggzq"
+          method="POST"
+        >
           <div class="contact-input">
-            <input type="text" placeholder="Full Name" name="name" required />
+            <input
+              type="text"
+              placeholder="Full Name"
+              name="name"
+              maxlength="30"
+              required
+            />
           </div>
           <div class="contact-input">
             <input
@@ -333,13 +343,19 @@
             />
           </div>
           <div class="info">
-            <textarea placeholder="Write something ..." rows="6"></textarea>
+            <textarea
+              placeholder="Write something ..."
+              rows="6"
+              name="message"
+              required
+              maxlength="500"
+            ></textarea>
           </div>
-        </div>
+        </form>
         <div class="contact-btn">
-          <div class="story-btn">
+          <button class="story-btn" type="submit">
             <span><a href="#">Get in touch</a></span>
-          </div>
+          </button>
         </div>
       </div>
     </section>
