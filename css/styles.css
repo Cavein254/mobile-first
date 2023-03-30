@@ -88,7 +88,7 @@ button > a {
 }
 
 .social-media > li {
-  padding-right: 1rem;
+  padding: 7px 1rem;
 }
 
 .pro-btn :hover {
@@ -444,7 +444,7 @@ button > a {
 .interest {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
-  background-color: #fbf8f7;
+  background-color: #fff;
   padding-bottom: 4.5rem;
 }
 
@@ -487,7 +487,7 @@ button > a {
   align-items: center;
   color: #979493;
   padding: 1rem 0.5rem;
-  background-color: #fbf8f7;
+  background-color: #fff;
   border: #dbd8d7 solid 1px;
   border-top-style: hidden;
   border-right-style: hidden;
@@ -527,6 +527,7 @@ button > a {
 .story-contact-btn {
   border: none;
   background-color: #ff6b00;
+  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -539,6 +540,8 @@ button > a {
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 1.5rem;
+
 }
 
 .story-contact-btn:hover {
@@ -548,7 +551,7 @@ button > a {
 }
 
 .story-contact-btn:active {
-  background-color: #ff6b00;
+  background-color: #E05304;
   color: #fff5e1;
 }
 
