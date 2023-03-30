@@ -550,7 +550,7 @@ button > a {
 }
 
 .story-contact-btn:active {
-  background-color: #E05304;
+  background-color: #e05304;
   color: #fff5e1;
 }
 
@@ -558,6 +558,7 @@ button > a {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
 footer {
   border: #dfe1e6 solid 0.15rem;
   border-left-style: none;
@@ -566,12 +567,14 @@ footer {
   background-color: #fff;
   padding-bottom: 1rem;
 }
+
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #505f79;
 }
+
 .footer-content > .social-media > li > a > img {
   color: #505f79;
 }
