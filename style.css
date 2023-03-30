@@ -10,11 +10,6 @@ select:focus {
   outline: none;
 }
 
-button > a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .app-bar {
   background-color: #3c3a39;
   height: 5.75rem;
@@ -88,7 +83,7 @@ button > a {
 }
 
 .social-media > li {
-  padding: 7px 1rem;
+  padding-right: 1rem;
 }
 
 .pro-btn :hover {
@@ -103,6 +98,7 @@ button > a {
 .story {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
 }
 
 .story-title {
@@ -117,7 +113,6 @@ button > a {
   color: #1c1a19;
   padding-bottom: 1.5rem;
   border-bottom: 0.001rem #212121 solid;
-  padding-top: 7.5rem;
 }
 
 .card-top {
@@ -195,6 +190,7 @@ button > a {
 .projects {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
   margin-top: 1rem;
 }
 
@@ -202,7 +198,6 @@ button > a {
   grid-column: 2;
   background-image: url("../pics/img2.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   padding: 0.8rem;
 }
 
@@ -293,6 +288,7 @@ button > a {
   margin-top: 7.5rem;
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
+  grid-template-rows: 100%;
   background-image: url("../pics/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -337,7 +333,6 @@ button > a {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  color: #fff;
 }
 
 .about-btn:hover {
@@ -389,10 +384,6 @@ button > a {
   color: #091e42;
 }
 
-.story-contact-btn > a:hover {
-  color: #ff6b00;
-}
-
 .about-btn > span > a:hover {
   color: #ff6b00;
 }
@@ -439,147 +430,4 @@ button > a {
 
 .language-sec > ul > h4 {
   margin-left: 1rem;
-}
-
-.interest {
-  display: grid;
-  grid-template-columns: 1.5rem 1fr 1.5rem;
-  background-color: #fff;
-  padding-bottom: 4.5rem;
-}
-
-.intrest-description {
-  grid-column: 2;
-  padding-top: 4.25rem;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.25rem;
-  text-align: center;
-  color: #172b4d;
-}
-
-.contact {
-  grid-column: 2;
-  margin-top: 4.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-input {
-  padding-top: 1rem;
-  width: 100%;
-}
-
-.contact-input > input {
-  width: 100%;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  display: flex;
-  align-items: center;
-  color: #979493;
-  padding: 1rem 0.5rem;
-  background-color: #fff;
-  border: #dbd8d7 solid 1px;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-}
-
-.info {
-  width: 100%;
-}
-
-.info > textarea {
-  width: 100%;
-  font-family: "Inter", sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding: 2rem 0.5rem;
-  background-color: #fbf8f7;
-  border-style: hidden;
-  color: #3c3a39;
-}
-
-.info > textarea :focus :active {
-  outline: none;
-  border-color: transparent;
-  border-bottom: 2px solid #1c87c9;
-}
-
-.contact-btn {
-  grid-column: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.story-contact-btn {
-  border: none;
-  background-color: #ff6b00;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.8rem;
-  gap: 10px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-top: 1.5rem;
-}
-
-.story-contact-btn:hover {
-  background-color: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
-}
-
-.story-contact-btn:active {
-  background-color: #e05304;
-  color: #fff5e1;
-}
-
-.story-contact-btn:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
-}
-
-footer {
-  border: #dfe1e6 solid 0.15rem;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  background-color: #fff;
-  padding-bottom: 1rem;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #505f79;
-}
-
-.footer-content > .social-media > li > a > img {
-  color: #505f79;
-}
-
-.footer-social {
-  padding-bottom: 3rem;
-  border-bottom: solid 0.25rem #0d151e;
 }
