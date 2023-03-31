@@ -583,3 +583,7 @@ footer {
   padding-bottom: 3rem;
   border-bottom: solid 0.25rem #0d151e;
 }
+@media (min-width: 375px) {
+}
+@media (min-width: 768px) {
+}

@@ -119,3 +119,6 @@ select:focus {
   grid-column: 2;
   margin-top: 5rem;
 }
+
+@media (min-width: 768px) {
+}
