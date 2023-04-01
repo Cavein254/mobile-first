@@ -105,6 +105,11 @@ button > a {
   grid-template-columns: 1.5rem 1fr 1.5rem;
 }
 
+.story-grid-container {
+  grid-column: 2;
+  margin-bottom: 1.5rem;
+}
+
 .story-title {
   grid-column: 2;
   display: flex;
@@ -155,6 +160,7 @@ button > a {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  margin-left: -1.5rem;
 }
 
 .languages > ul > li {
@@ -298,10 +304,14 @@ button > a {
   background-size: auto;
   background-position-x: right;
   background-position-y: bottom;
+  padding-bottom: 7.5rem;
+}
+
+.about-container {
+  grid-column: 2;
 }
 
 .about-text {
-  grid-column: 2;
   display: flex;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -371,6 +381,21 @@ button > a {
   color: #fff;
 }
 
+.top {
+  background-color: #1c1a19;
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  padding-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lang-top {
+  grid-column: 2;
+  border: 0.05px #fff solid;
+  width: 90%;
+}
+
 .pro-language > ul > li > a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -402,9 +427,13 @@ button > a {
   background-color: #fff;
 }
 
+.language-container {
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  background-color: #1c1a19;
+}
+
 .language-sec {
   grid-column: 2;
-  background-color: #1c1a19;
   padding-bottom: 2rem;
   padding-top: 8.5rem;
 }
@@ -582,4 +611,203 @@ footer {
 .footer-social {
   padding-bottom: 3rem;
   border-bottom: solid 0.25rem #0d151e;
+}
+
+@media (min-width: 375px) {
+  .nav-container {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  .nav-container {
+    display: block;
+  }
+
+  .nav-container > ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 7.75rem;
+  }
+
+  .nav-container > ul > li > a {
+    text-decoration: none;
+    margin-right: 2rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../pics/Illustration-header.png);
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: contain;
+  }
+
+  .text-social {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story-title {
+    border-bottom: none;
+    display: flex;
+  }
+
+  .line {
+    width: 70%;
+    margin-left: 2%;
+  }
+
+  .story-grid-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-top > img {
+    width: 684px;
+  }
+
+  .card-text {
+    margin-left: 1rem;
+  }
+
+  .languages > ul {
+    margin-left: 0;
+    justify-content: start;
+  }
+
+  .footer-social-media > li {
+    margin-right: 1rem;
+  }
+
+  .languages > ul > li {
+    margin-right: 1rem;
+  }
+
+  .post-title {
+    font-size: 2.5rem;
+  }
+
+  .card-supporting-text {
+    font-size: 1.25rem;
+    margin: 2rem 0;
+  }
+
+  .story {
+    display: grid;
+    grid-template-columns: 4rem 1fr 4rem;
+  }
+
+  .story-btn > span {
+    margin-top: 1rem;
+  }
+
+  .project-container {
+    display: flex;
+    margin: 0 4rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .pro-btn {
+    opacity: 0;
+  }
+
+  .pro-btn:hover {
+    opacity: 100;
+  }
+
+  .project-title:hover,
+  .support-text:hover,
+  .pro-language:hover {
+    visibility: hidden;
+  }
+
+  .about {
+    display: flex;
+    background-image: url("../pics/Frame.png");
+    background-size: auto;
+  }
+
+  .about-container {
+    width: 50%;
+    margin-left: 4rem;
+  }
+
+  .language-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 4rem 2rem 4rem;
+  }
+
+  .skills-li {
+    margin-top: 4rem;
+  }
+
+  .interest {
+    display: flex;
+    margin: 8.5rem 4rem;
+  }
+
+  .intrest-description {
+    width: 40%;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .contact {
+    width: 60%;
+  }
+
+  .contact-btn {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+  }
+
+  .footer-social-media {
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-social {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
 }
