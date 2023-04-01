@@ -310,6 +310,7 @@ button > a {
 .about-container {
   grid-column: 2;
 }
+
 .about-text {
   display: flex;
   font-family: "Crete Round", sans-serif;
@@ -380,6 +381,21 @@ button > a {
   color: #fff;
 }
 
+.top {
+  background-color: #1c1a19;
+  grid-template-columns: 1.5rem 1fr 1.5rem;
+  padding-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lang-top {
+  grid-column: 2;
+  border: 0.05px #fff solid;
+  width: 90%;
+}
+
 .pro-language > ul > li > a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -414,11 +430,6 @@ button > a {
 .language-container {
   grid-template-columns: 1.5rem 1fr 1.5rem;
   background-color: #1c1a19;
-}
-
-.lang-top {
-  border: 1px #fff solid;
-  margin: 0 4rem;
 }
 
 .language-sec {
@@ -691,6 +702,10 @@ footer {
     justify-content: start;
   }
 
+  .footer-social-media > li {
+    margin-right: 1rem;
+  }
+
   .languages > ul > li {
     margin-right: 1rem;
   }
@@ -725,12 +740,18 @@ footer {
     margin-right: 1rem;
   }
 
-  .pro-btn-large {
-    visibility: hidden;
+  .pro-btn {
+    opacity: 0;
   }
 
-  .pro-btn-large:hover {
-    visibility: visible;
+  .pro-btn:hover {
+    opacity: 100;
+  }
+
+  .project-title:hover,
+  .support-text:hover,
+  .pro-language:hover {
+    visibility: hidden;
   }
 
   .about {
@@ -757,11 +778,11 @@ footer {
 
   .interest {
     display: flex;
-    margin: 8.5rem;
+    margin: 8.5rem 4rem;
   }
 
   .intrest-description {
-    width: 50%;
+    width: 40%;
     font-size: 40px;
     line-height: 52px;
     text-align: left;
@@ -769,7 +790,7 @@ footer {
   }
 
   .contact {
-    width: 50%;
+    width: 60%;
   }
 
   .contact-btn {
@@ -778,7 +799,15 @@ footer {
     justify-content: left;
   }
 
-  .social-media {
+  .footer-social-media {
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
     flex-direction: row;
+  }
+
+  .footer-social {
+    padding-bottom: 0;
+    border-bottom: 0;
   }
 }
