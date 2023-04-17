@@ -811,3 +811,32 @@ footer {
     border-bottom: 0;
   }
 }
+.filler {
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3c3a39;
+  position: absolute;
+}
+
+.hidden-nav {
+  position: absolute;
+  top: calc(15% - 24px / 2);
+  margin-left: 1.5rem;
+  z-index: 200;
+}
+
+.hidden-nav-title {
+  margin-top: 1rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  border-bottom: solid 1px #6f6c6b;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
