@@ -1,18 +1,18 @@
-function fillOut() {
-  var fill = document.getElementById("bars");
-  var cover = document.getElementById("cover");
-  if (fill.className === "burger") {
-    fill.className += " burger-icon-hide filler";
-    cover.style.display = "block";
+const cover = document.getElementById('cover');
+const fill = document.getElementById('bars');
+fill.addEventListener('click', () => {
+  if (fill.className === 'burger') {
+    fill.className += ' burger-icon-hide filler';
+    cover.style.display = 'block';
   } else {
-    fill.className = "burger";
-    cover.style.display = "none";
+    fill.className = 'burger';
+    cover.style.display = 'none';
   }
-}
+});
 
-function closeCover() {
-  var cover = document.getElementById("cover");
-  var fill = document.getElementById("bars");
-  cover.style.display = "none";
-  fill.className = "burger";
-}
+const closeCover = document.getElementById('cover');
+closeCover.addEventListener('click', () => {
+  const fill = document.getElementById('bars');
+  cover.style.display = 'none';
+  fill.className = 'burger';
+});

@@ -33,7 +33,7 @@ hr {
   color: #fff;
   width: 4.375rem;
   height: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
@@ -50,7 +50,7 @@ hr {
   flex-direction: column;
   background-color: #1c1a19;
   padding: 7.5rem 1.5rem 8.5rem 1.5rem;
-  background-image: url("../pics/illustration-header-mobile.svg");
+  background-image: url('../pics/illustration-header-mobile.svg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -58,7 +58,7 @@ hr {
 }
 
 .primary-text {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -68,7 +68,7 @@ hr {
 }
 
 .supporting-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -79,7 +79,7 @@ hr {
 
 .description {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -120,7 +120,7 @@ hr {
   grid-column: 2;
   display: flex;
   align-items: center;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem;
@@ -140,7 +140,7 @@ hr {
   grid-column: 2;
   display: flex;
   align-items: center;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -150,7 +150,7 @@ hr {
 
 .card-supporting-text {
   grid-column: 2;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -170,7 +170,7 @@ hr {
 }
 
 .languages > ul > li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -186,7 +186,7 @@ hr {
 }
 
 .story-btn > span {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.25rem;
@@ -195,6 +195,19 @@ hr {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.hidden-nav-title > a {
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  border-bottom: solid 1px #6f6c6b;
+  padding-left: 0.5rem;
 }
 
 .story-btn > span > a {
@@ -212,7 +225,7 @@ hr {
 
 .project-details {
   grid-column: 2;
-  background-image: url("../pics/img2.svg");
+  background-image: url('../pics/img2.svg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0.8rem;
@@ -220,7 +233,7 @@ hr {
 
 .project-title {
   margin-top: 4.5rem;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -230,7 +243,7 @@ hr {
 
 .support-text {
   margin-top: 1rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -241,7 +254,7 @@ hr {
 .lang-list > li > a {
   margin-top: 2.75rem;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -290,7 +303,7 @@ hr {
 
 .pro-btn > span > a {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -305,7 +318,7 @@ hr {
   margin-top: 7.5rem;
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
-  background-image: url("../pics/illustration-about-me-mobile.svg");
+  background-image: url('../pics/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: right;
@@ -319,7 +332,7 @@ hr {
 
 .about-text {
   display: flex;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 4.5rem;
@@ -331,7 +344,7 @@ hr {
 
 .about-description {
   grid-column: 2;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -378,7 +391,7 @@ hr {
 
 .about-btn > span > a {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -404,7 +417,7 @@ hr {
 
 .pro-language > ul > li > a {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -462,7 +475,7 @@ hr {
 }
 
 .lang-img > h4 {
-  font-family: "InaiMathi", sans-serif;
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -486,7 +499,7 @@ hr {
 .intrest-description {
   grid-column: 2;
   padding-top: 4.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -513,7 +526,7 @@ hr {
 
 .contact-input > input {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -535,7 +548,7 @@ hr {
 
 .info > textarea {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1rem;
@@ -568,7 +581,7 @@ hr {
   align-items: center;
   padding: 0.8rem;
   gap: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
@@ -610,6 +623,11 @@ footer {
   color: #505f79;
 }
 
+.hidden-bottom > img {
+  padding-top: 2rem;
+  padding-bottom: 12px;
+}
+
 .footer-content > .social-media > li > a > img {
   color: #505f79;
 }
@@ -647,7 +665,7 @@ footer {
   .nav-container > ul > li > a {
     text-decoration: none;
     margin-right: 2rem;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
@@ -762,7 +780,7 @@ footer {
 
   .about {
     display: flex;
-    background-image: url("../pics/Frame.png");
+    background-image: url('../pics/Frame.png');
     background-size: auto;
   }
 
@@ -844,18 +862,6 @@ footer {
 .hidden-nav-title {
   padding-top: 1rem;
 }
-.hidden-nav-title > a {
-  text-decoration: none;
-  margin-top: 1.5rem;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff5e1;
-  border-bottom: solid 1px #6f6c6b;
-  padding-left: 0.5rem;
-}
 
 .hidden-content {
   height: 41vh;
@@ -864,14 +870,11 @@ footer {
 .hidden-bottom {
   display: flex;
   justify-content: center;
-  align-items: bottom;
   background-color: #e5e5e5;
-  margin-left: -40px;
-}
-
-.hidden-bottom > img {
-  padding-top: 2rem;
-  padding-bottom: 12px;
+  position: fixed;
+  width: 60%;
+  bottom: 77vh;
+  left: 0;
 }
 
 .close {
