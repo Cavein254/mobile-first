@@ -16,8 +16,8 @@ button > a {
 }
 
 hr {
-  color:#6f6c6b;
-  width:90%;
+  color: #6f6c6b;
+  width: 90%;
 }
 
 .app-bar {
@@ -842,9 +842,9 @@ footer {
 }
 
 .hidden-nav-title {
-  padding-top:1rem;
+  padding-top: 1rem;
 }
-.hidden-nav-title > a{
+.hidden-nav-title > a {
   text-decoration: none;
   margin-top: 1.5rem;
   font-family: "Inter", sans-serif;
@@ -875,12 +875,16 @@ footer {
 }
 
 .close {
-  position:relative;
+  position: relative;
   color: #67798e;
-  left:90%;
+  left: 90%;
   font-size: 1.4rem;
 }
 
 .burger-icon-hide {
-  margin-left:-2rem;
+  margin-left: -2rem;
+}
+
+.end-line {
+  width: 0;
 }

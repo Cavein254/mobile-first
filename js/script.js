@@ -6,6 +6,7 @@ function fillOut() {
     cover.style.display = "block";
   } else {
     fill.className = "burger";
+    cover.style.display = "none";
   }
 }
 
