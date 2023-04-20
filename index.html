@@ -16,22 +16,27 @@
     <title>Mobile Portfolio</title>
   </head>
   <body>
-    <div class="hidden-nav" id="cover">
-      <div class="close"><i class="fa-solid fa-xmark"></i></div>
-      <div class="hidden-nav-title">
-        <h1>Portfolio</h1>
-      </div>
-      <div class="hidden-nav-title">
-        <h1>About</h1>
-      </div>
-      <div class="hidden-nav-title">
-        <h1>Contact</h1>
-      </div>
+    <nav class="hidden-nav" id="cover">
+      <div class="close" onclick="closeCover()"><i class="fa-solid fa-xmark"></i></div>
+      <ul class="cover-list">
+        <li class="hidden-nav-title">
+          <a href="#">Portfolio</a>
+        </li>
+        <hr />
+        <li class="hidden-nav-title">
+          <a href="#">About</a>
+        </li>
+        <hr />
+        <li class="hidden-nav-title">
+          <a href="#">Contact</a>
+        </li>
+        <hr />
+      </ul>
       <div class="hidden-content"></div>
       <div class="hidden-bottom">
         <img src="./pics/Shape.png" />
       </div>
-    </div>
+    </nav>
     <header>
       <div class="app-bar">
         <a class="my-logo">My Logo</a>

@@ -15,6 +15,11 @@ button > a {
   color: #fff;
 }
 
+hr {
+  color:#6f6c6b;
+  width:90%;
+}
+
 .app-bar {
   background-color: #3c3a39;
   height: 5.75rem;
@@ -832,7 +837,15 @@ footer {
   display: none;
 }
 
+.cover-list {
+  list-style-type: none;
+}
+
 .hidden-nav-title {
+  padding-top:1rem;
+}
+.hidden-nav-title > a{
+  text-decoration: none;
   margin-top: 1.5rem;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -841,12 +854,11 @@ footer {
   line-height: 44px;
   color: #fff5e1;
   border-bottom: solid 1px #6f6c6b;
-  padding-bottom: 1rem;
   padding-left: 0.5rem;
 }
 
 .hidden-content {
-  height: 32vh;
+  height: 41vh;
 }
 
 .hidden-bottom {
