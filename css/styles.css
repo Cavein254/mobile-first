@@ -37,6 +37,7 @@ button > a {
 
 .burger > span {
   color: #fff;
+  padding-right: 20px;
 }
 
 .hero {
@@ -811,6 +812,7 @@ footer {
     border-bottom: 0;
   }
 }
+
 .filler {
   z-index: 100;
   top: 0;
@@ -827,6 +829,7 @@ footer {
   margin-left: 1.5rem;
   z-index: 200;
   width: 90%;
+  display: none;
 }
 
 .hidden-nav-title {
@@ -843,7 +846,7 @@ footer {
 }
 
 .hidden-content {
-  height: 42vh;
+  height: 32vh;
 }
 
 .hidden-bottom {
@@ -860,5 +863,12 @@ footer {
 }
 
 .close {
+  position:relative;
   color: #67798e;
+  left:90%;
+  font-size: 1.4rem;
+}
+
+.burger-icon-hide {
+  margin-left:-2rem;
 }
