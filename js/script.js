@@ -9,9 +9,3 @@ function fillOut() {
   }
 }
 
-function closeCover() {
-  var cover = document.getElementById("cover");
-  var fill = document.getElementById("bars");
-  cover.style.display = "none";
-  fill.className = "burger";
-}
