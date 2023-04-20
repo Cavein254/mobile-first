@@ -16,255 +16,305 @@
     <title>Mobile Portfolio</title>
   </head>
   <body>
+    <nav class="hidden-nav" id="cover">
+      <div class="close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul class="cover-list">
+        <li class="hidden-nav-title">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <hr />
+        <li class="hidden-nav-title">
+          <a href="#about">About</a>
+        </li>
+        <hr />
+        <li class="hidden-nav-title">
+          <a href="#contact">Contact</a>
+        </li>
+        <hr />
+      </ul>
+      <div class="hidden-content"></div>
+      <div class="hidden-bottom">
+        <img src="./pics/Shape.png" />
+      </div>
+    </nav>
     <header>
       <div class="app-bar">
         <a class="my-logo">My Logo</a>
-        <nav class="burger">
-          <span><i class="fa-solid fa-bars"></i></span>
+        <nav class="burger" id="bars">
+          <span id="burger-icon"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+        <nav class="nav-container">
+          <ul>
+            <li class="nav-links"><a href="#">Portfolio</a></li>
+            <li class="nav-links"><a href="#">About</a></li>
+            <li class="nav-links"><a href="#">Contact</a></li>
+            <li class="nav-links">
+              <a href="#"><img src="./pics/mail.png" alt="mail" /></a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
     <main>
       <div class="hero">
-        <div class="primary-text">
-          <h1>Hey There. I’m Alex.</h1>
+        <div class="text-social">
+          <div>
+            <div class="primary-text">
+              <h1>Hey There. I’m Alex.</h1>
+            </div>
+            <div class="supporting-text">
+              <h2>I'm a Software Developer</h2>
+            </div>
+            <div class="description">
+              <p>
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hesitate to contact me.
+              </p>
+            </div>
+          </div>
+          <div>
+            <ul class="social-media">
+              <li>
+                <a href="#"><img src="./pics/github.svg" alt="github" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./pics/link.svg" alt="linkedin" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./pics/yah.svg" alt="yep" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./pics/twitter.svg" alt="twitter" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./pics/medium.svg" alt="medium" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="supporting-text">
-          <h2>I'm a Software Developer</h2>
-        </div>
-        <div class="description">
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hesitate to contact me.
-          </p>
-        </div>
-        <ul class="social-media">
-          <li>
-            <a href="#"><img src="./pics/github.svg" alt="github" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./pics/link.svg" alt="linkedin" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./pics/yah.svg" alt="yep" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./pics/twitter.svg" alt="twitter" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./pics/medium.svg" alt="medium" /></a>
-          </li>
-        </ul>
+        <div class="hero-img"></div>
       </div>
     </main>
+
     <section>
       <div>
         <div class="story">
           <div class="story-title">
-            <h4>My Recent Works</h4>
-          </div>
-          <div class="card-top">
-            <img src="./pics/image1.svg" alt="image one" />
-          </div>
-          <div class="post-title">
-            <h4>Multi-Post Stories</h4>
-          </div>
-          <div class="card-supporting-text">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-          </div>
-          <div class="languages">
-            <ul>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">Bootstrap</a></li>
-              <li><a href="#">Ruby</a></li>
-            </ul>
-            <div class="story-btn">
-              <span><a href="#">See Project</a></span>
+            <div>
+              <h4>My Recent Works</h4>
+            </div>
+            <div class="line">
+              <hr />
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
+        <div id="portfolio" class="story">
+          <div class="story-grid-container">
+            <div class="card-top">
+              <img src="./pics/image1.svg" alt="image one" />
             </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
+            <div class="card-text">
+              <div class="post-title">
+                <h4>Multi-Post Stories</h4>
+              </div>
+              <div class="card-supporting-text">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+              </div>
+              <div class="languages">
+                <ul>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">Ruby</a></li>
+                </ul>
+                <div class="story-btn">
+                  <span><a href="#">See Project</a></span>
+                </div>
+              </div>
             </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
-            </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
-            </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
-            </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
-            </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
-            </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
-            </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
-            </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
-            </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="projects">
-          <div class="project-details">
-            <div class="project-title">
-              <h4>Profesional Art Printing Data</h4>
-            </div>
-            <div class="support-text">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. Has been the industry's standard.
-              </p>
-            </div>
-            <div class="pro-language">
-              <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Ruby</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="pro-btn">
-            <span><a href="#">See project</a></span>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <div class="about">
-          <div class="about-text">
-            <h4>About me</h4>
+    <div class="project-container">
+      <div class="projects">
+        <div class="project-details">
+          <div class="project-title">
+            <h4>Profesional Art Printing Data</h4>
           </div>
-          <div class="about-description">
+          <div class="support-text">
             <p>
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hesitate to contact me.
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
             </p>
           </div>
-          <div class="about-footer">
-            <div class="about-btn">
-              <span><a href="#">Get my resume</a></span>
+          <div class="pro-language">
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-details">
+          <div class="project-title">
+            <h4>Profesional Art Printing Data</h4>
+          </div>
+          <div class="support-text">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+          </div>
+          <div class="pro-language">
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-details">
+          <div class="pro-details">
+            <div class="project-title">
+              <h4>Profesional Art Printing Data</h4>
             </div>
-            <div class="about-border"></div>
+            <div class="support-text">
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+            </div>
+            <div class="pro-language">
+              <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="projects">
+        <div class="project-details">
+          <div class="project-title">
+            <h4>Profesional Art Printing Data</h4>
+          </div>
+          <div class="support-text">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+          </div>
+          <div class="pro-language">
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-details">
+          <div class="project-title">
+            <h4>Profesional Art Printing Data</h4>
+          </div>
+          <div class="support-text">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+          </div>
+          <div class="pro-language">
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-details">
+          <div class="project-title">
+            <h4>Profesional Art Printing Data</h4>
+          </div>
+          <div class="support-text">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. Has been the industry's standard.
+            </p>
+          </div>
+          <div class="pro-language">
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro-btn">
+          <span><a href="#">See project</a></span>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div>
+        <div id="about" class="about">
+          <div class="about-container">
+            <div class="about-text">
+              <h4>About me</h4>
+            </div>
+            <div class="about-description">
+              <p>
+                Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hesitate to contact me.
+              </p>
+            </div>
+            <div class="about-footer">
+              <div class="about-btn">
+                <span><a href="#">Get my resume</a></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div>
+      <div class="top">
+        <div class="lang-top"></div>
+      </div>
+      <div class="language-container">
         <ul class="language-sec">
           <li class="lang-container">
             <div class="lang-img">
@@ -294,10 +344,10 @@
               </ul>
             </div>
           </li>
-          <li class="lang-container">
+          <li class="lang-container skills-li">
             <div class="lang-img">
               <img src="./pics/rec3.svg" alt="rec" />
-              <h4>skills</h4>
+              <h4>Skills</h4>
             </div>
             <div>
               <ul class="lang-list">
@@ -324,6 +374,7 @@
           class="contact"
           action="https://formspree.io/f/xzbqggzq"
           method="POST"
+          id="contact"
         >
           <div class="contact-input">
             <input
@@ -351,18 +402,18 @@
               maxlength="500"
             ></textarea>
           </div>
+          <div class="contact-btn">
+            <button class="story-contact-btn" type="submit">
+              Get in touch
+            </button>
+          </div>
         </form>
-        <div class="contact-btn">
-          <button class="story-contact-btn" type="submit">Get in touch
-            <!-- <a href="#">Get in touch</a> -->
-          </button>
-        </div>
       </div>
     </section>
   </body>
   <footer>
     <div class="footer-content">
-      <ul class="social-media footer-social">
+      <ul class="social-media footer-social-media footer-social">
         <li>
           <a href="#"><img src="./pics/github.png" alt="github" /></a>
         </li>
@@ -379,7 +430,8 @@
           <a href="#"><img src="./pics/medum.png" alt="medium" /></a>
         </li>
       </ul>
-      <hr />
+      <hr class="end-line" />
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 </html>
